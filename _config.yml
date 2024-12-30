@@ -1,0 +1,14 @@
+encoding: utf-8
+
+baseurl: ""
+
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
