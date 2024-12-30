@@ -1,0 +1,52 @@
+---
+
+---
+@charset "utf-8";
+
+@import
+    "font-awesome/fontawesome",
+    "font-awesome/brands",
+    "font-awesome/solid",
+    "font-awesome/regular",
+    "monokai.css"
+;
+
+$accent-color: #2698ba;
+$text-color: #ffffff;
+$background-color: #1b1b1b;
+
+body {
+    color: $text-color;
+    background-color: $background-color;
+
+    a {
+        color: $accent-color;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.contact-icons {
+    font-size: 3em;
+    a:link {
+        color: $text-color;
+    }
+
+    a:visited {
+        color: $text-color;
+    }
+
+    a:hover {
+        color: $accent-color;
+    }
+}
