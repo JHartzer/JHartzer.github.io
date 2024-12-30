@@ -15,9 +15,16 @@ $accent-color: #2698ba;
 $text-color: #ffffff;
 $background-color: #1b1b1b;
 
+html {
+    padding: 40px;
+}
+
 body {
     color: $text-color;
     background-color: $background-color;
+
+    max-width: 800px;
+    margin: auto;
 
     a {
         color: $accent-color;
@@ -38,6 +45,8 @@ body {
 
 .contact-icons {
     font-size: 3em;
+    text-align: center;
+
     a:link {
         color: $text-color;
     }
@@ -49,4 +58,12 @@ body {
     a:hover {
         color: $accent-color;
     }
+}
+
+header {
+    text-align: right;
+}
+
+footer {
+    text-align: right;
 }

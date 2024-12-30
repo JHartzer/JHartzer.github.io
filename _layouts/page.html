@@ -5,9 +5,11 @@
 <body>
     <header>
         <a href="">{{ site.title }}</a>
-        <div style="display: inline-block">
-            {% for my_page in site.pages %}{% if my_page.title and my_page.noindex != true %}
-            <a href="{{ my_page.url }}">{{ my_page.title }}</a>{% endif %}
+        <div>
+            {% for my_page in site.pages %}
+            {% if my_page.title and my_page.noindex != true %}
+            <a href="{{ my_page.url }}">{{ my_page.title }}</a>&ensp;
+            {% endif %}
             {% endfor %}
         </div>
     </header>
