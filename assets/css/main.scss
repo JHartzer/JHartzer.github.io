@@ -83,3 +83,7 @@ ul {
 code {
     color: $accent-color-2;
 }
+
+svg.icon:hover path {
+    fill: $accent-color;
+}
