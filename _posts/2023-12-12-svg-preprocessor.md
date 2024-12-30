@@ -5,7 +5,7 @@ author: Jacob Hartzer
 thumbnail:
 date: 2023-12-12
 description:
-tags: tex
+tags: TeX
 categories:
 ---
 

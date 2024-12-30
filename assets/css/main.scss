@@ -4,14 +4,11 @@
 @charset "utf-8";
 
 @import
-    "font-awesome/fontawesome",
-    "font-awesome/brands",
-    "font-awesome/solid",
-    "font-awesome/regular",
     "monokai.css"
 ;
 
 $accent-color: #2698ba;
+$accent-color-2: #fb660a;
 $text-color: #ffffff;
 $background-color: #1b1b1b;
 
@@ -20,6 +17,7 @@ html {
 }
 
 body {
+    font-family: "Open Sans", sans-serif;
     color: $text-color;
     background-color: $background-color;
 
@@ -60,8 +58,12 @@ body {
     }
 }
 
-.highlight{
+.highlight {
     overflow-x: scroll;
+}
+
+pre.highlight {
+    padding: 10px;
 }
 
 header {
@@ -70,4 +72,14 @@ header {
 
 footer {
     text-align: right;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+code {
+    color: $accent-color-2;
 }
