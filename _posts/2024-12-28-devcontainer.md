@@ -28,10 +28,10 @@ This development method allows VS Code to be run inside a docker container such 
 
 Where the `workspaceMount` and `workspaceFolder` items are useful for defining where the workspace should be mounted within the docker container. This is very useful when working with ROS/colcon packages that expect the workspace to be in a specific location to be built.
 
-The `Dockerfile` follows from a basic alpine container, but I will use different base images based on the repo being worked on (e.g. using the osrf ROS images, or a Jekyll container).
+The `Dockerfile` follows from a basic ubuntu container, but I will use different base images based on the repo being worked on (e.g. using the osrf ROS images, or a Jekyll container).
 
 ```Dockerfile
-FROM alpine:latest
+FROM ubuntu:latest
 
 # non interactive frontend for locales
 ENV DEBIAN_FRONTEND=noninteractive
