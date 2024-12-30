@@ -5,7 +5,7 @@ author: Jacob Hartzer
 thumbnail: /assets/img/multi_cam_imu/setup_thumb.png
 date: 2022-09-15
 description:
-tags:
+tags: Calibration
 categories:
 related_posts: false
 ---
@@ -17,7 +17,7 @@ This research focuses on the implementation of an online multi-camera IMU calibr
 
 The main challenge was in developing the Jacobians for the quaternion measurement, such that the updates would be stable even with large body rotations. To overcome this challenge, the derivations and work by Joan Sola which can be found on [ArXiv](https://doi.org/10.48550/arXiv.1711.02508) were used extensively.
 
-Additionally, work was performed on monitoring the calibration for shifts in extrinsic parameters, such as would occur if a sensor is bumped in the middle of use. Through the use of a sliding window T-test, online monitoring of calibration extrinsic parameters was implemented.  
+Additionally, work was performed on monitoring the calibration for shifts in extrinsic parameters, such as would occur if a sensor is bumped in the middle of use. Through the use of a sliding window T-test, online monitoring of calibration extrinsic parameters was implemented.
 
 ## Experimentation
 

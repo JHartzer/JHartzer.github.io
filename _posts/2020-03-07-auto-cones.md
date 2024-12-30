@@ -2,10 +2,9 @@
 layout: post
 title:  Autonomous Cone Placement
 thumbnail: /assets/img/ConeSetup.png
-tags: [Localization]
+tags: Localization
 date: 2020-03-07
 description:
-tags:
 categories:
 related_posts: false
 ---
@@ -18,7 +17,7 @@ The Auto Cone project is an effort to develop cones that are capable of localizi
 
 <img src="/assets/img/Kinematics.png" alt="Kinematics" style="float:right;width:30%"/>
 
-The goal of this project is to develop a robotic platform capable of automatically placing cones in a defined wedge shape behind the work vehicle within the starting lane. Specifically the cones shall: 
+The goal of this project is to develop a robotic platform capable of automatically placing cones in a defined wedge shape behind the work vehicle within the starting lane. Specifically the cones shall:
 - Place three cones in 40 foot increments in a wedge
 - Begin the wedge 80 feet from the end of the vehicle
 - Operate on highway surfaces unaffected by small debris
@@ -31,23 +30,23 @@ The goal of this project is to develop a robotic platform capable of automatical
 
 # Kinematics:
 
-The omnidirectional platform makes the system holonomic, which means that with only three motors, the system can smoothly and directly move between any two states. This allows orientation to be independently controlled from position, and makes the system unconstrained by initial conditions. This is very advantageous for pick and place when deploying. The image outlines the kinematics used to drive the cone's motion. 
+The omnidirectional platform makes the system holonomic, which means that with only three motors, the system can smoothly and directly move between any two states. This allows orientation to be independently controlled from position, and makes the system unconstrained by initial conditions. This is very advantageous for pick and place when deploying. The image outlines the kinematics used to drive the cone's motion.
 
 # Sensor Fusion:
 
 <img src="/assets/img/RTK.png" alt="RTK GPS" style="float:right;width:30%"/>
 
-Using a system of RTK GPS and a ground base station, the cone's achieve a much lower position error than typical GPS for a relatively small increase in cost. 
+Using a system of RTK GPS and a ground base station, the cone's achieve a much lower position error than typical GPS for a relatively small increase in cost.
 
-Fusing these corrected GPS measurements with the higher rate encoders on the wheel motors provides the system with a high rate localization estimate that is robust in handling drift and sensor noise. 
+Fusing these corrected GPS measurements with the higher rate encoders on the wheel motors provides the system with a high rate localization estimate that is robust in handling drift and sensor noise.
 
 # Results:
 
-The results of this project were a functioning prototype system that is capable of deploying multiple cones without collision to a wedge shape formation while remaining within lane lines. The system is also capable of operating in GPS-denied environments. 
+The results of this project were a functioning prototype system that is capable of deploying multiple cones without collision to a wedge shape formation while remaining within lane lines. The system is also capable of operating in GPS-denied environments.
 
 # Videos
 
-Deployment: 
+Deployment:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0hgOc2csaWE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The IV 2020 presentation slides are available [here]({{site.baseurl}}/assets/pdf/2020-06-IV.pdf) and recording is available here:
