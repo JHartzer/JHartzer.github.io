@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Jekyll Build/Serve",
+            "type": "shell",
+            "command": "jekyll build && jekyll serve --watch",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

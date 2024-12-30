@@ -1,3 +1,10 @@
-FROM jekyll/jekyll:4
-COPY Gemfile ./
-RUN bundle install
+FROM ubuntu:latest
+
+# non interactive frontend for locales
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && \
+    apt-get -y install \
+    ruby \
+    jekyll \
+    git

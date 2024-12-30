@@ -4,19 +4,19 @@
 
 <body>
     <header>
-        <a class="site-title" href="">{{ site.title }}</a>
+        <a href="">{{ site.title }}</a>
         <div style="display: inline-block">
-            {% for my_page in site.pages %}{% if my_page.title and my_page.noindex != true %} | <a
-                href="{{ my_page.url }}">{{ my_page.title }}</a>{% endif %}{%
-            endfor %}
+            {% for my_page in site.pages %}{% if my_page.title and my_page.noindex != true %}
+            <a href="{{ my_page.url }}">{{ my_page.title }}</a>{% endif %}
+            {% endfor %}
         </div>
     </header>
     <hr>
-    <div class="post-header">
+    <div>
         <h1>{{ page.title | escape }}</h1>
     </div>
     <main>
-        <div class="content-wrapper">{{ content }}</div>
+        {{ content }}
     </main>
     <hr>
     <footer>
