@@ -4,11 +4,18 @@ baseurl: ""
 
 markdown: kramdown
 
-sass:
-  style: compressed
-
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENSE
+
+plugins:
+  - jekyll-feed
+
+# Socials
+github: jhartzer
+linkedin: JacobHartzer
+semanticscholar: 118011043
+orcid: 0000-0002-3051-2213
+rss_icon: true

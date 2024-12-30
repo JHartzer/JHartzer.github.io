@@ -2,10 +2,6 @@
 layout: page
 ---
 <div>
-    <h1>
-        <a href="/tags/#{{ page.tags[0] | downcase }}">#{{ page.tags[0] }}</a> {{ page.title |
-        escape }}
-    </h1>
     <p>
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
         {% for tag in page.tags %} | <a href="/tags/#{{ tag | downcase }}">#{{ tag }}</a>{%
