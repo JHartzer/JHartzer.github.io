@@ -113,7 +113,7 @@ In the future, testing will include more in-person experiments with multiple mov
 
 # Citation
 
-This content was presented at ITSC 2021 with slides available [here]({{site.baseurl}}/assets/pdf/2021-09-ITSC.pdf).
+This content was presented at ITSC 2021.
 
 ```bibtex
 @inproceedings{2021_Vehicular_Teamwork,

@@ -40,7 +40,6 @@ The code has been open-sourced and is available on [Github](https://github.com/u
 
 ## Citation:
 
-This content was presented at SSRR 2022 with slides available [here]({{site.baseurl}}/assets/pdf/2021-09-ITSC.pdf).
 The published article is available on [arXiv](https://doi.org/10.48550/arXiv.2209.13821), [IEEE](https://doi.org/10.1109/SSRR56537.2022.10018692).
 
 ```bibtex
