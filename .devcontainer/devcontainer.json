@@ -5,5 +5,14 @@
     },
     "forwardPorts": [
         4000
-    ]
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mhutchie.git-graph",
+                "TakumiI.markdowntable",
+                "ms-vscode.wordcount"
+            ]
+        }
+    }
 }
