@@ -28,7 +28,7 @@ permalink: /posts/
             {% if tags != "" %}
             &nbsp;
             {% for tag in post.tags %}
-                <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+                <a href="{{ tag | slugify | prepend: '/tags/#' | prepend: site.baseurl}}">
                 <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
             {% endfor %}
             {% endif %}
