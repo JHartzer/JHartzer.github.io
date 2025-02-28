@@ -1,5 +1,6 @@
 # jekyll-site
 
+TODO: Update build commands. Currently only tested inside devcontainer
 
 ```bash
 docker build . -t jekyll-env
