@@ -5,11 +5,11 @@ author: Jacob Hartzer
 thumbnail:
 date: 2023-12-12
 description:
-tags: TeX
+tags: LaTeX
 categories:
 ---
 
-As part of my [tex](https://tug.org/) work process, I like to generate graphics using inkscape SVG files. However, these files must be converted into PDFs for pdflatex to be able to process the figures. Normally, this would be a manual process and therefore quite cumbersome if there are multiple rounds of tweaks in inkscape to update typesetting in tex. To automate this process, I wrote a simple preprocessor script that checks for changes in the SVG hash and, if changes are found, will regenerate a PDF using the inkscape command line interface. The script is available as a [gist](https://gist.github.com/JHartzer/a3cc3cb276f343d7bd145ab50cdd9dab) or is copied below:
+As part of my [LaTeX](https://tug.org/) work process, I like to generate graphics using inkscape SVG files. However, these files must be converted into PDFs for pdflatex to be able to process the figures. Normally, this would be a manual process and therefore quite cumbersome if there are multiple rounds of tweaks in inkscape to update typesetting in LaTeX. To automate this process, I wrote a simple preprocessor script that checks for changes in the SVG hash and, if changes are found, will regenerate a PDF using the inkscape command line interface. The script is available as a [gist](https://gist.github.com/JHartzer/a3cc3cb276f343d7bd145ab50cdd9dab) or is copied below:
 
 
 ```python
