@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Detecting Aprilgrid in C++
+title: Detecting Aprilgrids in C++
 author: Jacob Hartzer
 date: 2025-08-19
 description:
