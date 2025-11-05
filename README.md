@@ -1,15 +1,9 @@
 # jekyll-site
 
-TODO: Update build commands. Currently only tested inside devcontainer
+Build the devcontainer the run the following commands:
 
 ```bash
-docker build . -t jekyll-env
-```
-
-```shell
-docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll-env jekyll build --incremental
-```
-
-```shell
-docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll-env jekyll serve --watch
+bundle install
+jekyll build --incremental
+jekyll serve --watch
 ```
