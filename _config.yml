@@ -21,13 +21,13 @@ orcid: 0000-0002-3051-2213
 rss_icon: true
 
 collections:
-  meme-of-the-monday:
+  motm:
     output: true
     permalink: /meme-of-the-monday/:name/
 
 defaults:
   - scope:
       path: ""
-      type: "meme-of-the-monday"
+      type: "motm"
     values:
-      layout: meme-of-the-monday
+      layout: motm
