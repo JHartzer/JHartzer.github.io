@@ -3,13 +3,6 @@ layout: page
 ---
 
 <main class="motm">
-	<p align="center">
-		<i>{{ page.tagline }}</i>
-		<br>
-		<img src="/assets/img/motm/{{page.image}}">
-		<br>
-		<a href="{{page.unsubscribe_link}}">UNSUBSCRIBE</a>
-	</p>
 
 	{%- comment -%}
 	Build an ordered array of the collection using a numeric front-matter field "order".
@@ -46,7 +39,7 @@ layout: page
 			{% endif %}
 		</div>
 		<div>
-			<a href="{{ " meme-of-the-monday/" | relative_url }}" title="Index">Index</a>
+			<a href="{{ 'meme-of-the-monday/' | relative_url }}" title="Index">Index</a>
 		</div>
 		<div>
 			{% if next %}
@@ -56,4 +49,14 @@ layout: page
 			{% endif %}
 		</div>
 	</nav>
+
+	<p align="center">
+		<i>{{ page.tagline }}</i>
+		<br>
+		{{ content }}
+		<br>
+		<img src="/assets/img/motm/{{page.image}}" width="100%">
+		<br>
+		<a href="{{page.unsubscribe_link}}">Unsubscribe</a>
+	</p>
 </main>
