@@ -1,0 +1,61 @@
+---
+layout: page
+---
+
+<main class="motm">
+
+	{%- comment -%}
+	Build an ordered array of the collection using a numeric front-matter field "order".
+	{%- endcomment -%}
+	{% assign ordered = site.motm | sort: "order" %}
+
+	{%- comment -%}
+	Find the index of the current page in the ordered list.
+	{%- endcomment -%}
+	{% assign current_index = nil %}
+	{% for doc in ordered %}
+	{% if doc.url == page.url %}
+	{% assign current_index = forloop.index0 %}
+	{% endif %}
+	{% endfor %}
+
+	{%- comment -%}
+	Compute neighbors.
+	{%- endcomment -%}
+	{% if current_index != nil %}
+	{% assign prev_index = current_index | minus: 1 %}
+	{% assign next_index = current_index | plus: 1 %}
+	{% assign prev = ordered[prev_index] %}
+	{% assign next = ordered[next_index] %}
+	{% endif %}
+
+	<nav class="motm__nav" aria-label="motm navigation"
+		style="display:flex;justify-content:space-between;margin-top:2rem;">
+		<div>
+			{% if prev and prev_index >= 0 %}
+			<a href="{{ prev.url | relative_url }}" title="{{ prev.title }}">&#x2039; Previous</a>
+			{% else %}
+			<span style="opacity:.4">&#x2039; Previous</span>
+			{% endif %}
+		</div>
+		<div>
+			<a href="{{ 'meme-of-the-monday/' | relative_url }}" title="Index">Index</a>
+		</div>
+		<div>
+			{% if next %}
+			<a href="{{ next.url | relative_url }}" title="{{ next.title }}">Next &#x203A;</a>
+			{% else %}
+			<span style="opacity:.4">Next &#x203A;</span>
+			{% endif %}
+		</div>
+	</nav>
+
+	<p align="center" style="font-size: 2em;"><i>{{ page.tagline }}</i></p>
+	<p align="center">
+		{{ content }}
+		<br>
+		<img src="/assets/img/motm/{{page.image}}" width="100%">
+		<br>
+		<a style="font-size: 2em;" href="{{page.unsubscribe_link}}">Unsubscribe</a>
+	</p>
+</main>

@@ -19,3 +19,15 @@ linkedin: JacobHartzer
 semanticscholar: 118011043
 orcid: 0000-0002-3051-2213
 rss_icon: true
+
+collections:
+  motm:
+    output: true
+    permalink: /meme-of-the-monday/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "motm"
+    values:
+      layout: motm
