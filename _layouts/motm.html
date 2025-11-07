@@ -32,7 +32,7 @@ layout: page
 	<nav class="motm__nav" aria-label="motm navigation"
 		style="display:flex;justify-content:space-between;margin-top:2rem;">
 		<div>
-			{% if prev %}
+			{% if prev and prev_index >= 0 %}
 			<a href="{{ prev.url | relative_url }}" title="{{ prev.title }}">&#x2039; Previous</a>
 			{% else %}
 			<span style="opacity:.4">&#x2039; Previous</span>
