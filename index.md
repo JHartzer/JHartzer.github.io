@@ -6,11 +6,11 @@ permalink: /
 
 <img src="/assets/img/profile.jpg" alt="Profile Picture" style="float:right;width:200px"/>
 
-Howdy! My name is Jacob Hartzer, and I am a Mechanical Engineering PhD Student. I am originally from Austin, Texas, and also attended Texas A&M for my undergraduate and master’s degrees in Mechanical Engineering. My background interests were originally in controls and dynamics, which slowly led me to estimation and filtering. My professional and research experience has also given me avenues to use coding skills to apply these interests to real-world problems in simulated and fielded environments.
+Howdy! My name is Jacob Hartzer, and I am a Mechanical Engineer by education and a Roboticist by trade. I am originally from Austin, Texas and attended Texas A&M for my undergraduate through Ph.D. degrees in Mechanical Engineering. My background interests were originally in controls and dynamics, which slowly led me to estimation and filtering. My professional and research experience has also given me avenues to use coding skills to apply these interests to real-world problems in simulated and fielded environments.
 
-Currently, I am researching localization and calibration techniques using kalman filter based methods. Specifically, I am trying to incorporate real time estimation of state with the monitoring of sensor calibration and health in a way that is optimal and computationally efficient. I am also interested in the development of monte-carlo simulations for algorithm validation, as well as open-source software packages to share this work.
+My past research interesets were in localization and calibration techniques using kalman filter based methods. Specifically, I incorporated real time estimation of state with the monitoring of sensor calibration and health in a way that is optimal and computationally efficient. I also explored the development of monte-carlo simulations for algorithm validation, as well as developed open-source software packages to share this work.
 
-Most of my work focuses on the simulation and estimation of complex dynamic systems. I spend much of my time in work and research coding custom models in a number of environments. This has allowed me to contribute to more accurate estimation and localization of these systems and improve the development of new devices with more accurate models.
+Most of my current work focuses on the simulation and estimation of complex autonomous systems. I spend much of my time in work coding custom models in a number of environments to deliver mission autonomy to multi-national customers. This has allowed me to contribute to more accurate estimation and localization of these systems and improve the development of new devices with more accurate models.
 
 <h2>Latest Posts</h2>
 
