@@ -24,6 +24,9 @@ collections:
   motm:
     output: true
     permalink: /meme-of-the-monday/:name/
+  italy:
+    output: true
+    permalink: /italy/:name/
 
 defaults:
   - scope:
@@ -31,3 +34,8 @@ defaults:
       type: "motm"
     values:
       layout: motm
+  - scope:
+      path: ""
+      type: "italy"
+    values:
+      layout: italy
