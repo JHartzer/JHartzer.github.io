@@ -25,6 +25,16 @@
     <footer>
         {% capture footer-md %}{% include footer.html %}{% endcapture %}{{ footer-md | markdownify }}
     </footer>
+    {% if page.render_latex %}
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: { '[+]': [['$', '$']] }
+            }
+        };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+    {% endif %}
 </body>
 
 </html>

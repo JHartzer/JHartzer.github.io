@@ -5,8 +5,7 @@ author: Jacob Hartzer
 date: 2025-03-08
 description:
 tags:
-categories:
-related_posts: false
+render_latex: true
 ---
 
 # Introduction
