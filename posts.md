@@ -23,10 +23,13 @@ permalink: /posts/
                 <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
             <p class="post-meta">
-            {{ post.date | date: "%Y-%m-%d" }}
+            {%- if post.description -%}
             {{ post.description }}
+            <br>
+            {%- endif -%}
+            {{ post.date | date: "%Y-%m-%d" }}
             {% if tags != "" %}
-            &nbsp;
+            <br>
             {% for tag in post.tags %}
                 <a href="{{ tag | slugify | prepend: '/tags/#' | prepend: site.baseurl}}">
                 <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
@@ -36,7 +39,7 @@ permalink: /posts/
         </div>
         {%- if post.thumbnail -%}
         <div style="margin-left:: 30%;">
-            <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: scale-down; height: 100px" alt="image">
+            <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: scale-down; height: 90px; background-color: white" alt="thumbnail image not available">
         </div>
         {%- endif -%}
     </div>
