@@ -5,8 +5,6 @@ thumbnail: /assets/img/uwb/uwb_collab.png
 tags: Localization
 date: 2020-10-05
 description:
-categories:
-related_posts: false
 ---
 
 

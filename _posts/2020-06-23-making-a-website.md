@@ -6,8 +6,6 @@ thumbnail: /assets/img/jekyll.png
 tags: Web
 date: 2020-06-23
 description:
-categories:
-related_posts: false
 ---
 
 <img src="/assets/img/jekyll.png" alt="Jekyll" style="float:right;width:25%"/>
