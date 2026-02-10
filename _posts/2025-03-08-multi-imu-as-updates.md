@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Use Asynchronos IMU measurements as Kalman Updates
+title: Using Asynchronous IMU measurements as Kalman Updates
 author: Jacob Hartzer
 date: 2025-03-08
 description:
@@ -10,7 +10,7 @@ render_latex: true
 
 # Introduction
 
-This notebook outlines a basic example of the differences between using IMU measurements in the prediction step as an input to a kinematic function versus using acceleration as a state and using the Kalman update equations to manage the acceleration estimate. To simplify this comparison, this will only consider accelerometer measurements and the resultant position, velocity, and acceleration errors as those measurements are integrated over time either as Kalman prediction inputs or as Kalman updates to an acceleration state, which is then integrated.
+This work outlines a basic example of the differences between using IMU measurements in the prediction step as an input to a kinematic function versus using acceleration as a state and using the Kalman update equations to manage the acceleration estimate. To simplify this comparison, this will only consider accelerometer measurements and the resultant position, velocity, and acceleration errors as those measurements are integrated over time either as Kalman prediction inputs or as Kalman updates to an acceleration state, which is then integrated.
 
 ```python
 import numpy as np
@@ -22,19 +22,14 @@ plt.rcParams['figure.figsize'] = [12,3]
 ```
 
 ## Truth Modelling
+
 This defines the motion model as a sinusoid with an adjustable amplitude and frequency
 
-<p align="center">
-    <img src="/assets/svg/multi-imu/pos-true.svg" alt="Position RMS Errors" style="float:center"/>
-</p>
+$$ p = \frac{A}{2} \left[1-\cos(2\pi f t) \right] $$
 
-<p align="center">
-    <img src="/assets/svg/multi-imu/vel-true.svg" alt="Position RMS Errors" style="float:center"/>
-</p>
+$$ v = A \pi f \sin \left( 2 \pi f t \right) $$
 
-<p align="center">
-    <img src="/assets/svg/multi-imu/acc-true.svg" alt="Position RMS Errors" style="float:center"/>
-</p>
+$$ v = 2 A \left(\pi f\right)^2 \cos \left( 2 \pi f t \right) $$
 
 ```python
 A  = 0.2
@@ -333,4 +328,4 @@ axs3_2.grid(True)
 
 # Conclusion
 
-In conclusion, this work shows a simple example of how an asynchronous multi-IMU system can have lower position, velocity, and acceleration RMS errors by treating acceleration as a Kalman state, and utilizing incoming IMU measurements in the Kalman update step instead of as inputs to the Kalman prediction.
+In conclusion, this work shows a simple example of how an asynchronous multi-IMU system can have lower position, velocity, and acceleration RMS errors by treating acceleration as a Kalman state, and utilizing incoming IMU measurements in the Kalman update step instead of as inputs to the Kalman prediction. This is by no means guaranteed, and is likely highly dependent on the types of motion the system is experiencing. Regardless, these results merit additional thought for multi-IMU systems.
