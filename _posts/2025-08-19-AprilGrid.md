@@ -4,7 +4,6 @@ title: Detecting AprilGrids in C++
 author: Jacob Hartzer
 date: 2025-08-19
 thumbnail: assets/img/aprilgrid_25h9_3x6_out.png
-description:
 tags: Software
 ---
 

@@ -23,16 +23,12 @@ permalink: /posts/
                 <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
             <p class="post-meta">
-            {%- if post.description -%}
-            {{ post.description }}
-            <br>
-            {%- endif -%}
             {{ post.date | date: "%Y-%m-%d" }}
             {% if tags != "" %}
             <br>
             {% for tag in post.tags %}
                 <a href="{{ tag | slugify | prepend: '/tags/#' | prepend: site.baseurl}}">
-                <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+                <i class="fas fa-hashtag fa-sm"></i> #{{ tag }}</a> &nbsp;
             {% endfor %}
             {% endif %}
             </p>

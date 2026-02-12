@@ -3,7 +3,6 @@ layout: post
 title: Bringing Life to an Old Tablet
 author: Jacob Hartzer
 date: 2025-08-16
-description:
 tags: Software
 ---
 

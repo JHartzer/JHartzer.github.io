@@ -4,7 +4,6 @@ title:  Autonomous Cone Placement
 thumbnail: /assets/img/ConeSetup.png
 tags: Localization
 date: 2020-03-07
-description:
 ---
 
 <img src="/assets/img/ConeSetup.png" alt="cone" style="float:right;width:30%"/>

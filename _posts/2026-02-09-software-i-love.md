@@ -4,7 +4,6 @@ title: Software I love
 author: Jacob Hartzer
 date: 2026-02-09
 thumbnail:
-description:
 tags: Software
 ---
 
