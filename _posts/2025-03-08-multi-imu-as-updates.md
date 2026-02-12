@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Asynchronous IMU measurements as Kalman Updates
+title: Asynchronous IMU as Kalman Updates
 author: Jacob Hartzer
 date: 2025-03-08
 description:

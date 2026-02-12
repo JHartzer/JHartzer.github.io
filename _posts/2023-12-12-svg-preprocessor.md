@@ -2,7 +2,7 @@
 layout: post
 title: Latex SVG Preprocessor
 author: Jacob Hartzer
-thumbnail:
+thumbnail: assets/img/latex.jpeg
 date: 2023-12-12
 description:
 tags: Software

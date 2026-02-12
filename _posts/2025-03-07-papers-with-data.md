@@ -3,7 +3,7 @@ layout: post
 title: Include Data with your Papers
 author: Jacob Hartzer
 date: 2025-03-07
-description:
+thumbnail: assets/img/paper-with-data.svg
 tags: Software
 ---
 
@@ -39,5 +39,9 @@ dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname, 'Example.pdf')
 plt.savefig(filename)
 ```
+
+<p align="center">
+  <img src="/assets/img/paper-with-data.svg" style="float:center; width:40%"/>
+</p>
 
 Additionally, since you have all the information you need to generate the plots using the committed script, it is not necessary to add the figures themselves to git. This can slightly reduce repo size. I typically combine these scripts with my [LaTeX preprocessor]({% post_url 2023-12-12-svg-preprocessor %}) to ensure everything is up-to-date.
