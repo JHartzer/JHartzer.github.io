@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Testing code in devcontainers using Docker
-author: Jacob Hartzer
-# thumbnail: /assets/img/multi_imu.png
 date: 2024-12-28
 tags: Software
 ---

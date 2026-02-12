@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Online Multi-GPS Calibration
-author: Jacob Hartzer
 date: 2024-09-18
 thumbnail: assets/img/multi-gps/antenna_pos_error.png
 tags: Sensor-Fusion
