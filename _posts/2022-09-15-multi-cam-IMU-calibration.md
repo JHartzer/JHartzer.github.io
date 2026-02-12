@@ -2,7 +2,6 @@
 layout: post
 title:  Online Multi-Camera and IMU Calibration
 thumbnail: /assets/img/multi_cam_imu/setup_thumb.png
-date: 2022-09-15
 tags: Sensor-Fusion
 ---
 

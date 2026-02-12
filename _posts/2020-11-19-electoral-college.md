@@ -3,7 +3,6 @@ layout: post
 title: In Offense of the Electoral College
 thumbnail: /assets/img/EC.png
 tags: Opinion
-date: 2020-11-19
 ---
 
 The Electoral College, in its current form, is undemocratic, effectively disenfranchises millions of Americans, discourages participation in government, and has drifted away from what the framers of our Constitution intended. A system that allows for a candidate to receive [less than 25% of the popular vote](https://www.npr.org/2016/11/02/500112248/how-to-win-the-presidency-with-27-percent-of-the-popular-vote), and still become president of the United States has fatal flaws and has no place in a modern democracy. Though we have yet to see something that egregious in an election, our refusal to modernize despite demographic trends will only exacerbate the disparities where twice in the past 20 years the president was not chosen by a majority of the American people.

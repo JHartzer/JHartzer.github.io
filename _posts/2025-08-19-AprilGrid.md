@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Detecting AprilGrids in C++
-date: 2025-08-19
 thumbnail: assets/img/aprilgrid_25h9_3x6_out.png
 tags: Software
 ---

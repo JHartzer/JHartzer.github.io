@@ -3,7 +3,6 @@ layout: post
 title: The Cost of Outdated English Units
 thumbnail: /assets/img/metric.png
 tags: Opinion
-date: 2020-11-02
 ---
 
 Burma, Liberia, and the US. Three countries that you don't normally hear grouped together in the same sentence. None share a continent, many would have trouble locating all three on a map. Yet there they are. The reason I have gathered these countries together in the opening sentence of this essay is that these are the only three remaining countries on the Earth that have not adopted the International System of Units, better known as the metric system.

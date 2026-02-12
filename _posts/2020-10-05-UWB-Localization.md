@@ -3,7 +3,6 @@ layout: post
 title:  "Collaborative Localization using Ultra-Wideband Ranging"
 thumbnail: /assets/img/uwb/uwb_collab.png
 tags: Localization
-date: 2020-10-05
 ---
 
 

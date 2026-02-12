@@ -2,7 +2,6 @@
 layout: post
 title: Latex SVG Preprocessor
 thumbnail: assets/img/latex.jpeg
-date: 2023-12-12
 tags: Software
 ---
 

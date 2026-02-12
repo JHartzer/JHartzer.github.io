@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Asynchronous IMU as Kalman Updates
-date: 2025-03-08
 tags: Sensor-Fusion
 render_latex: true
 ---

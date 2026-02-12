@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Bringing Life to an Old Tablet
-date: 2025-08-16
 tags: Software
 ---
 

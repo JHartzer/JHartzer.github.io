@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Include Data with your Papers
-date: 2025-03-07
 thumbnail: assets/img/paper-with-data.svg
 tags: Software
 ---

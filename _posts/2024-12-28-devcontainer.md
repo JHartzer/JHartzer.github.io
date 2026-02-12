@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Testing code in devcontainers using Docker
-date: 2024-12-28
 tags: Software
 ---
 

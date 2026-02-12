@@ -1,10 +1,8 @@
 ---
 layout: post
 title: How I built a Website using Jekyll
-date: 2020-06-23
 thumbnail: /assets/img/jekyll.png
 tags: Software
-date: 2020-06-23
 ---
 
 <img src="/assets/img/jekyll.png" alt="Jekyll" style="float:right;width:25%"/>

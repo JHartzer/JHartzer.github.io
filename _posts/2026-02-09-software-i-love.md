@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Software I love
-date: 2026-02-09
 tags: Software
 ---
 
