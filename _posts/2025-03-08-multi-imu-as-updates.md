@@ -4,7 +4,7 @@ title: Using Asynchronous IMU measurements as Kalman Updates
 author: Jacob Hartzer
 date: 2025-03-08
 description:
-tags:
+tags: Sensor-Fusion
 render_latex: true
 ---
 

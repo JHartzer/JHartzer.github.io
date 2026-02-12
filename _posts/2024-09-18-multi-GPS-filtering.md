@@ -4,7 +4,7 @@ title: Online Multi-GPS Calibration
 author: Jacob Hartzer
 date: 2024-09-18
 description:
-tags:
+tags: Sensor-Fusion
 render_latex: true
 ---
 

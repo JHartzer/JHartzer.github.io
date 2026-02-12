@@ -5,7 +5,7 @@ author: Jacob Hartzer
 date: 2025-08-19
 thumbnail: assets/img/aprilgrid_25h9_3x6_out.png
 description:
-tags:
+tags: Software
 ---
 
 I'm excited to announce the release of my [AprilGrid](https://github.com/JHartzer/aprilgrid) detection library, a lightweight, cross-platform library for detecting and processing AprilGrids (of [Kalibr](https://github.com/ethz-asl/kalibr/) fame) in images and point clouds.

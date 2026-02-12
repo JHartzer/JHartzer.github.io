@@ -4,7 +4,7 @@ title: Include Data with your Papers
 author: Jacob Hartzer
 date: 2025-03-07
 description:
-tags: LaTeX
+tags: Software
 ---
 
 You should include your plotting code **and the data** in your papers and reports. Far too often, I have included a figure in a paper I am writing and after the fact changed my mind about how the data should be presented. Often these are trivial things like colors, styles, and sizes. But sometimes, I want to augment or remove entire lines within the plots. Obviously this is not easy to fix if you have to go back and forth between your code that generates the plot and your paper, constantly copying files from one to the other. Or, even worse, what if you deleted your data or the script used to generate your plots?

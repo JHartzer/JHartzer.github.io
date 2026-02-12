@@ -5,7 +5,7 @@ author: Jacob Hartzer
 thumbnail: /assets/img/multi_cam_imu/setup_thumb.png
 date: 2022-09-15
 description:
-tags: Calibration
+tags: Sensor-Fusion
 ---
 
 <img src="/assets/img/multi_cam_imu/setup.png" alt="UWB Ranging" style="float:right;width:30%"/>

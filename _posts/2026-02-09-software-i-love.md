@@ -5,7 +5,7 @@ author: Jacob Hartzer
 date: 2026-02-09
 thumbnail:
 description:
-tags:
+tags: Software
 ---
 
 This is a list, in no particular order, of software that I love, use regularly, and maybe go as far as recommend to strangers.

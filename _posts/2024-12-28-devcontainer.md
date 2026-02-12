@@ -5,7 +5,7 @@ author: Jacob Hartzer
 # thumbnail: /assets/img/multi_imu.png
 date: 2024-12-28
 description:
-tags: Docker
+tags: Software
 ---
 
 From time to time I review open sourced projects for the Journal of Open Source Software ([JOSS](https://joss.theoj.org/)). This is usually a productive endeavor where I get to explore some unknown branch of research and the associated software being written to actually perform the research. Just like there is a wide array of topics I get to review, there is also a large variance in quality of the code being submitted. With that said, I don't necessarily want to install the entire dependency tree in order to review a single repository. That is where [devcontainers](https://code.visualstudio.com/docs/devcontainers/create-dev-containers) come in.

@@ -4,7 +4,7 @@ title: Bringing Life to an Old Tablet
 author: Jacob Hartzer
 date: 2025-08-16
 description:
-tags:
+tags: Software
 ---
 
 While in engineering school, I purchased a simple 2-in-1 Tablet and Keyboard: the ASUS Transformer Mini T103H. It served me well, being able to both run basic Python programs for class, as well as take complex notes using the included stylus. However, it’s been nearly 10 years and simply can't handle running Windows anymore (even with the custom lightweight version of Windows it was loaded with).
