@@ -41,7 +41,6 @@ to process templates. You can read jekyll's documentation
 are the use of liquid variables to iterate through build pages, and define
 how certain pages are to be treated.
 
-
 ## In Short
 
 Jekyll makes build a static site extremely easy, and GitHub has removed the cost

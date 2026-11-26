@@ -67,7 +67,6 @@ $$v_i = v_{i-1} + a_i \Delta t$$
 
 $$p_i = p_{i-1} + v_i \Delta t$$
 
-
 ```python
 def predict(times, acc_measurements):
     pos = 0
@@ -84,6 +83,7 @@ def predict(times, acc_measurements):
         vel_list.append(vel)
     return pos_list, vel_list, acc_measurements
 ```
+
 # Kalman Update Formulation
 This function represents the method of using acceleration as a Kalman state and IMU measurements as Kalman updates.
 
@@ -112,7 +112,6 @@ $$K_i = \frac{P_i}{S_i}$$
 $$a_i^+ = a_i^- + K_i z_i$$
 
 $$P_i^+ = (1-K_i) * P_i^-$$
-
 
 ```python
 def filter(times, acc_measurements, measurement_error, process_noise):
@@ -246,7 +245,6 @@ t_2, p_pred_2, p_filt_2, v_pred_2, v_filt_2, a_pred_2, a_filt_2 = \
 The following results show the root-mean-squared errors for position, velocity, and acceleration across all simulations using the two outlined methods in the de-synchronized, synchronized, and random start timing scenarios. As previously discussed, using IMU measurements purely as inputs to the Kalman prediction is beneficial in a multi-IMU system only when the measurements are evenly spaced and independent, which causes the system to behave as if there were only a single, higher rate, IMU. Using the IMU measurements as Kalman updates, however, shows large improvements if the IMU measurements are synchronized, or modest improvements in the more likely scenario where the measurements have random offsets in the start times.
 
 In the most typical scenario of random start times, the resultant position, velocity, and acceleration errors are lowered by using the IMU measurements as Kalman updates instead of as inputs to the prediction step. This shows how, by making use of the slight correlation between closely spaced measurements, errors can be reduced by treating accelerations as a Kalman state and filtering the measurements on that state.
-
 
 ```python
 fig1, (axs1_0 ,axs1_1, axs1_2) = plt.subplots(1, 3, sharey=True)

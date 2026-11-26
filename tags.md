@@ -8,6 +8,6 @@ permalink: /tags/
 {% for tag in sorted_tags %}
 ### {{ tag[0] }}
   {% for post in tag[1] %}
- - [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url }})
   {% endfor %}
 {% endfor %}

@@ -11,7 +11,6 @@ I'm excited to announce the release of my [AprilGrid](https://github.com/JHartze
   <img src="/assets/img/aprilgrid_25h9_3x6_out.png" style="float:center"/>
 </p>
 
-
 With this library, you can:
 - Detect [AprilTags](https://github.com/AprilRobotics/apriltag) with subpixel accuracy
 - Estimate pose and orientation of detected grids

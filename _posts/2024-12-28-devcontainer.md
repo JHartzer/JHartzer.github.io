@@ -8,7 +8,6 @@ From time to time I review open sourced projects for the Journal of Open Source 
 
 This development method allows VS Code to be run inside a docker container such that all the dependencies can be exactly installed as required by the software I'm evaluating. The basic structure within VS Code is to have a `devcontainer.json` file within the `.vscode` directory. While not necessary, I also generally define a custom [Dockerfile](https://docs.docker.com/reference/dockerfile/) in that directory as well since I usually am installing additional dependencies on top of a base container. The `devcontainer.json` I generally use is
 
-
 ```json
 {
     "name": "Docker-env",

@@ -9,7 +9,6 @@ tags: Sensor-Fusion
 
 This research focuses on the implementation of an online multi-camera IMU calibration filter that is based on the work of [Mirzaei and Roumeliotis](https://doi.org/10.1109/IROS.2007.4399342). This work expands on what has been previously done by incorporating the fiducial marker detectors provided by [OpenCV](https://opencv.org/) and manipulating the update equations to utilize the quaternion measurement provided by these detectors.
 
-
 The main challenge was in developing the Jacobians for the quaternion measurement, such that the updates would be stable even with large body rotations. To overcome this challenge, the derivations and work by Joan Sola which can be found on [ArXiv](https://doi.org/10.48550/arXiv.1711.02508) were used extensively.
 
 Additionally, work was performed on monitoring the calibration for shifts in extrinsic parameters, such as would occur if a sensor is bumped in the middle of use. Through the use of a sliding window T-test, online monitoring of calibration extrinsic parameters was implemented.

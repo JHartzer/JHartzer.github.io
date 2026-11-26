@@ -1,0 +1,9 @@
+[files]
+extend-exclude = ["_site", "vendor", ".jekyll-cache", "*.min.*"]
+
+[default.extend-words]
+Ags = "Ags"
+Celler = "Celler"
+Handel = "Handel"
+kalibr = "kalibr"
+MIMC = "MIMC"

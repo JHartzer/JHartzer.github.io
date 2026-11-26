@@ -482,7 +482,6 @@ The resulting experiment over the trajectory shown in the following figure compa
   <img src="/assets/img/multi-gps/exp_trajectory.png" style="float:center"/>
 </p>
 
-
 | Method          | Mean Position Error [m] |
 |---|:---:|
 | Distance Based  | 18.8                    |

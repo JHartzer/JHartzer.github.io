@@ -23,7 +23,6 @@ The goal of this project is to develop a robotic platform capable of automatical
 - Cost less than $1,500 per cone unit
 - Be easy to use and require little training
 
-
 # Kinematics:
 
 The omnidirectional platform makes the system holonomic, which means that with only three motors, the system can smoothly and directly move between any two states. This allows orientation to be independently controlled from position, and makes the system unconstrained by initial conditions. This is very advantageous for pick and place when deploying. The image outlines the kinematics used to drive the cone's motion.

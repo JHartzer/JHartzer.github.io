@@ -48,7 +48,6 @@ $$
 
 That is roughly **0.038 milligrams** of water. For context, a single standard raindrop is about $50\text{ mg}$. This is approximately half the weight of a single grain of salt. So, your morning routine could theoretically launch a miniscule mist into orbit, or at least the amount of dignity remaining after the splash.
 
-
 ### Takeaways
 
 Next time you experience this aquatic phenomenon, don’t be annoyed. Be proud! You aren't just a victim of fluid displacement; you are a localized energy generator capable of accelerating matter to speeds that would make NASA sweat!

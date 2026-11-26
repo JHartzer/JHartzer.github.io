@@ -4,7 +4,9 @@ FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
-    apt-get -y install \
-    ruby \
+    apt-get install \
+    build-essential \
+    git \
     jekyll \
-    git
+    ruby ruby-dev \
+    -y
