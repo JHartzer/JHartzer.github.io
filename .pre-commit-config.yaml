@@ -1,0 +1,30 @@
+default_language_version:
+  node: system
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: end-of-file-fixer
+        types: [markdown]
+      - id: trailing-whitespace
+        types: [markdown]
+        args: [--markdown-linebreak-ext=md]
+      - id: mixed-line-ending
+        types: [markdown]
+      - id: check-merge-conflict
+      - id: check-yaml # front matter-style YAML config files
+        files: ^_config.*\.ya?ml$
+
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.52.2
+    hooks:
+      - id: typos
+        args: [--write-changes]
+        types: [markdown]
+
+  - repo: https://github.com/jackdewinter/pymarkdown
+    rev: v0.9.42 # better: pin a release tag
+    hooks:
+      - id: pymarkdown
+        args: [--disable-rules, "md013,md033,md041", fix]
